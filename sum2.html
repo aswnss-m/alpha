@@ -1,0 +1,26 @@
+<html>
+ <head>
+ <Script Language = "JavaScript">
+ function Sum()
+{
+  var n1,n2,s=0,i;
+  n1 = Number(document.frmP.tb1.value);
+  n2 = Number(document.frmP.tb2.value);
+  s= n1 + n2 ;
+  document.frmP.txtResult.value = s;
+}
+ </Script>
+ </head>
+<body>
+<center>
+<form name = "frmP">
+Enter number : &nbsp;&nbsp;<input type = "text" name = "tb1">
+<br><br>
+Enter next number : &nbsp;&nbsp;<input type = "text" name = "tb2">
+Sum &nbsp;&nbsp;<input type = "text" name = "txtResult">
+<br><br><br>
+<input type = "button" value = "Show" onClick = "Sum()">
+</form>
+</body>
+</center>
+</html>

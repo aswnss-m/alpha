@@ -1,0 +1,20 @@
+body {
+  background-color : skyblue ;
+  text-align : center ;
+
+
+}
+header {
+  text-align: left;
+  background-color: rgba(25, 150, 225, .8);
+  border-top: 5px solid cyan;
+  color: white;
+}
+.num {
+  background-color: rgba(25, 150, 225, 0.8) ;
+  font-size: 25px;
+  color: white;
+  border-bottom: 5px solid cyan;
+  padding: 20px;
+
+}

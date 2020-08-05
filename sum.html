@@ -1,0 +1,30 @@
+
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="E:\aswnss\progrm\sum.css">
+    <script language = "javascript">
+      function add()
+      {
+        var Sum = 0 ;
+        var num1  = Number (document.frm.box1.value);
+        var num2  = Number (document.frm.box2.value);
+        Sum = num1 + num2;
+        document.frm.sum.value = Sum ;
+
+      }
+
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <form  name = "frm">
+      <table border=0px rules = unset>
+        <tr><td> Number</td> <td>:</td> <td><input type="text" name="box2"></td></tr>
+        <tr><td>Number</td> <td>:</td> <td> <input type="text" name="box1"></td></tr>
+        <tr><td>sum</td> <td>:</td> <td><input type="text" name="sum"> </td></tr>
+      <tr><td><input type="button"  value="check" onClick = "add()"></td><td> <input type="reset" name="" value="clear"></td></tr>
+    </td>
+    </table>
+    </form>
+  </body>
+</html>

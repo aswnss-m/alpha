@@ -1,0 +1,12 @@
+body{
+    background-color:grey;
+    color : whitesmoke;
+
+}
+table {
+  padding: 50%;
+  align : centre;
+  border-style : solid;
+  border-size : 5px;
+  
+}
